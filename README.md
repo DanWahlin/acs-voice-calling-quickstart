@@ -25,15 +25,11 @@ View the video associated with this sample repo here.
 
     `node issue-access-token.js`
 
-1. Open `client.js` and replace `<USER ACCESS TOKEN>` with the access token value shown in the previous step.
-
-    **NOTE:** The access token is a one-time use token. Once you run the demo and hang up you'll need to create a new access token and replace it in `client.js` again if you want to run the demo again.
-
 1. Start the webpack dev server to run the app:
 
     `npx webpack-dev-server`
 
-1. Enter  `8:echo123` to call a bot that will answer and allow you to record and playback your voice.
+1. Navigate to https://localhost:8080
+1. Copy the access token into the `User access token` textbox and click the `Submit` button.
+1. Enter `8:echo123` into the `Who would you like to call?` textbox to call a bot that will answer and allow you to record and playback your voice.
 1. Click the `Start Call` button to begin and then follow the voice prompts provided by the bot. Note that this simple demo doesn't allow you to select a microphone.
-
-    **NOTE:** As mentioned earlier, the access token is a one-time use token. Once you run the demo and hang up you'll need to create a new access token as shown earlier and replace it in `client.js` if you want to run the demo again.

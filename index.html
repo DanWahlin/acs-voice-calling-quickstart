@@ -6,11 +6,22 @@
   <body>
     <h4>Azure Communication Services</h4>
     <h1>Calling Quickstart</h1>
+    <textarea 
+      id="token-input"
+      type="text"
+      placeholder="User access token"
+      style="width: 400px;height:100px"></textarea>
+    </div>
+    <br />
+    <button id="token-submit" type="button">
+        Submit
+    </button>
+    <br /><br />
     <input 
       id="callee-id-input"
       type="text"
       placeholder="Who would you like to call? (use 8:echo123)"
-      style="margin-bottom:1em; width: 300px;"
+      style="margin-bottom:1em; width: 400px; display: block;"
     />
     <div>
       <button id="call-button" type="button" disabled="true">
