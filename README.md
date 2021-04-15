@@ -29,7 +29,7 @@ View the video associated with this sample repo here.
 
     `npx webpack-dev-server`
 
-1. Navigate to https://localhost:8080
+1. Navigate to https://localhost:8080 in the browser.
 1. Copy the access token into the `User access token` textbox and click the `Submit` button.
 1. Enter `8:echo123` into the `Who would you like to call?` textbox to call a bot that will answer and allow you to record and playback your voice.
 1. Click the `Start Call` button to begin and then follow the voice prompts provided by the bot. Note that this simple demo doesn't allow you to select a microphone.
