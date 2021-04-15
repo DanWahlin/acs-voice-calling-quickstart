@@ -13,7 +13,7 @@ View the video associated with this sample repo here.
 
 # Running the Sample
 
-1. Create a new Azure Communication Resource in the [Azure Portal](https://portal.azure.com). Once it's created go to `Tools --> Keys`  and copy the first connection string value shown into your clipboard. 
+1. Create a new Azure Communication Resource in the [Azure Portal](https://portal.azure.com/?WT.mc_id=m365-0000-dwahlin). Once it's created go to `Tools --> Keys`  and copy the first connection string value shown into your clipboard. 
 1. Create an `.env` file at the root of this project and add the following into it:
 
     `CONNECTION_STRING=<your_acs_connection_string_goes_here>`
